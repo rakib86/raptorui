@@ -3,7 +3,7 @@ export async function GET() {
     JSON.stringify({
       name: "button-demo",
       type: "registry:ui",
-      dependencies: [],
+      dependencies: ["npx npx shadcn@latest add collapsible"],
       files: [
         {
           path: "raptorui/button-demo.tsx",
